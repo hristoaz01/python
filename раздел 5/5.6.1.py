@@ -1,9 +1,10 @@
-num = input()
-if (num % 2 !=0):
-    print("Плохо")
-elif (num % 2 == 0) & (num ==[2, 5]):
-    print("Неплохо")
-elif (num % 2 == 0) & (num ==[6, 20]):
-    print("Так себе")
-elif (num % 2 ==0) & (num > 20):
-    print("отлично")
+num = inpuwhile 1:
+    value = abs(int(input("Введите ваше число: ")))
+    if (value % 3 == 0) and (value % 5 == 0):
+        print("Fizz Buzz")
+    elif value % 3 == 0:
+        print("Fizz")
+    elif value % 5 == 0:
+        print("Buzz")
+    else:
+        print(value)
