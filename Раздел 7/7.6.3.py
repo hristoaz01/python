@@ -1,6 +1,4 @@
-book = {'Maxim': '546789', 'Alina': '485135'}
-book_keys = list(book.keys())
-book_new = {}
-for i in range(len(book)):
-    book_new[book[book_keys[i]]] = book_keys[i]
-print(book_new)operator.itemgetter(1)))
+import operator
+rates = {'Otkritie': 61.85, 'Sberbank': 59.39, 'VTB': 60.1, 'Gazprombank': 60.2, 'Alpha-Bank': 60}
+x = len(rates)
+print(max(rates.items(), key=operator.itemgetter(1)))
