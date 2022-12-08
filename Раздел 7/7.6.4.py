@@ -1,6 +1,6 @@
-dates = ['2017-03-01', '2017-03-02']
-rates = [55.7, 55.2]
-dictionary = {}
-for i in range(len(dates)):
-    dictionary[dates[i]] = rates[i]
-print(dictionary)
+book = {'Maxim': '546123', 'Alina': '789456'}
+book_keys = list(book.keys())
+book_new = {}
+for i in range(len(book)):
+    book_new[book[book_keys[i]]] = book_keys[i]
+print(book_new)
